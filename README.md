@@ -9,6 +9,10 @@ $ yarn install
 # serve with hot reload at localhost:3000
 $ yarn dev
 
+# Trong trường hợp sử dụng cmd thì ta dùng lệnh sau: 
+
+$ script.cmd.bat
+
 # build for production and launch server
 $ yarn build
 $ yarn start
