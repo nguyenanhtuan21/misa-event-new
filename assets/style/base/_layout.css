@@ -1,3 +1,10 @@
+body {
+    font-family: GoogleSans, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #212121;
+}
+
 .container {
     margin-right: auto;
     margin-left: auto;
@@ -27,3 +34,4 @@
         width: 1070px;
     }
 }
+
