@@ -11,22 +11,26 @@
       </div>
     </div>
     <FilterHome />
+    <UpcommingEvent />
   </div>
 </template>
 
 <script>
 import FilterHome from '../pages/FilterHome/FilterHome.vue';
+import UpcommingEvent from '~/pages/UpcommingEvent/UpcommingEvent.vue';
+
 export default {
   name: 'NuxtTutorial',
   components: {
-    FilterHome
+    FilterHome,
+    UpcommingEvent
   }
 }
 </script>
 
 <style>
 .banner {
-  background: url("../static/img/home/bg_banner.jpg");
+  background: url("../assets/images/home/bg_banner.jpg");
   background-size: cover;
   color: #fff;
   padding: 50px 0;
